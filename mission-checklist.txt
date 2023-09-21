@@ -7,18 +7,28 @@
                                                                                                             
 -----------------------------------------------------------------------------------------
 
-ACCESS DATA
-------------
-Devbox username:		<devboxusername>
-Devbox password:		<devboxpassword>
-Devbox domain:			<devboxdomain>	
+ACCESS CREDENTIALS
+------------------
+Domain username:		<devboxusername>
+Domain password:		<devboxpassword>
+Domain name:			<devboxdomain>	
+-----------------------------------------------------------------------------------------
+
+Orientation
+---------------
+
+Current website:		<currentloadbalancerdns>
 -----------------------------------------------------------------------------------------
 
 MISSION 1
 ---------
-secret arn: 			<secretarn>
+
 S3 bucket name:			<s3bucket>
 source server IP address:	<sourceserverIPaddress>
+secret arn: 			<secretarn>
+application id:			COMPLETE ME
+VPC ID:				<vpcid>
+
 -----------------------------------------------------------------------------------------
 
 MISSION 2
@@ -51,9 +61,12 @@ BACKUP PLANS
 Here's a list of commands you can run to fix stuff
 
 
+
 Clone git repository
 
 
 notes:
-
+we can run this to speed up the containerize part:
 docker pull mcr.microsoft.com/dotnet/framework/aspnet:4.8-windowsservercore-ltsc2019
+
+SCT 
