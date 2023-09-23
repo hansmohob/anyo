@@ -11,7 +11,11 @@ ACCESS CREDENTIALS
 ------------------
 Domain username:		<devboxusername>
 Domain password:		<devboxpassword>
-Domain name:			<devboxdomain>	
+Domain name:			<devboxdomain>
+
+SQL Server:			<sqlserver>
+SQL authentication username:	<sqlusername>
+SQL authentication password:	<sqlpassword>
 -----------------------------------------------------------------------------------------
 
 Orientation
